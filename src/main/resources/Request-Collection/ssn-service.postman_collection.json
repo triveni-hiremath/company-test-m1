@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "fa3ea8a6-b645-4408-8ba7-aa40d005c5b2",
+		"name": "ssn-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ssn-random-validate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/ssn/12345789",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"ssn",
+						"12345789"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
